@@ -1,0 +1,146 @@
+
+
+.circles {
+  background-image: url("https://w0.peakpx.com/wallpaper/529/416/HD-wallpaper-starry-night-sky-night-sky-drawing.jpg");
+  opacity: .4;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+}
+
+#yo {
+  opacity: 1;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.goaway.circles {
+  opacity: 0;
+  transform: scale(1.5);
+}
+
+.circle {
+  position: absolute;
+  z-index: 1;
+}
+
+.rect {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  height: 100%;
+}
+
+.circle div {
+  margin: 0.8em;
+  border: 0.8em solid #fff;
+  border-radius: 50%;
+  border-color: transparent;
+}
+
+#top div {
+  width: 100vw;
+  height: 100vh;
+}
+
+#first div {
+  width: 100em;
+  height: 100em;
+  //animation: fast 1s ease-out 1;
+  animation: circ-anim2 45s linear infinite;
+
+}
+
+#second div {
+  width: 110em;
+  height: 110em;
+  //animation: fast2 1s ease-out 1;
+  animation: circ-anim 45s linear infinite;
+
+}
+
+#third div {
+  width: 122em;
+  height: 122em;
+  //animation: fast 1s ease-out 1;
+  animation: circ-anim2 45s linear infinite;
+
+}
+
+#fourth div {
+  width: 136em;
+  height: 136em;
+  //animation: fast2 1s ease-out 1;
+  animation: circ-anim 45s linear infinite;
+
+}
+
+#fifth div {
+  width: 152em;
+  height: 152em;
+  //animation: fast 1s ease-out 1;
+  animation: circ-anim2 45s linear infinite;
+
+}
+
+#sixth div {
+  width: 170em;
+  height: 170em;
+  //animation: fast2 1s ease-out 1;
+  animation: circ-anim 45s linear infinite;
+
+}
+
+#seventh div {
+  width: 190em;
+  height: 190em;
+  animation: fast 1s ease-out 1;
+  animation: circ-anim2 45s linear infinite;
+
+}
+
+#eighth div {
+  width: 202em;
+  height: 202em;
+  //animation: fast2 1s ease-out 1;
+  animation: circ-anim 60s linear infinite;
+
+}
+
+.slow {
+  animation: circ-anim 60s linear infinite;
+}
+
+.slow2 {
+  animation: circ-anim2 45s linear infinite;
+}
+
+
+
+@keyframes circ-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+
+}
+
+@keyframes circ-anim2 {
+  0% {
+      transform: rotate(360deg);
+  }
+
+  100% {
+      transform: rotate(0deg);
+  }
+}

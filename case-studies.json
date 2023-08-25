@@ -1,0 +1,322 @@
+{
+  "bpg": {
+    "slug": "bpg",
+    "name": "Blake Pro Gear",
+    "title": "Defining brand and website design for an outdoor gear company",
+    "imagePrefix": "/public/images/bpg/",
+    "imgs": [
+      "title-card.png"
+    ],
+    "background": {
+      "duration": "2 months",
+      "role": "Strategy, User Research, Brand Design, Web Design",
+      "text": "BlakeProGear, a company specializing in outdoor gear equipment made with superior material, needed to bring their brand into a new era, so they hired me to overhaul their design practices. Through the process of assessing their needs, I determined that they would need a brand guideline and design system that would allow them to update content while still staying within a common design language. I was able to create a brand guideline and responsive design system for them, that allowed a cohesive brand experience for their customers and efficient website content creation in the future."
+    },
+    "discovery": {
+      "d1": "I began the project by conducting meetings with the client to determine the project scope and timeline.",
+      "d2": "The direction of the brand was not defined at all, so I directed some exercises to determine that mission of the company, the desired brand personality, and how the stakeholders wanted that to be communicated.",
+      "r1": "In order to better understand the potential needs of the new website, I conducted a Competitive analysis of typical outdoor gear company websites.",
+      "r2": "The analysis of the competitor websites showed that the basic standard in the field seemed to be a focus on showcasing products with high-quality photos and detailed descriptions, as well as providing information on the company's values and commitment to sustainability. Additionally, many prioritize user reviews and ratings, as well as offering a seamless shopping experience with easy navigation and checkout processes.",
+      "persona": "I asked BPG to provide any customer insights they had noticed through their experiences providing customer service, and they determined that their customers differentiated themselves into two groups: skilled people and unskilled people. I used this to create two User Personas with unique goals, which would help anchor my design process moving forward."
+    },
+    "personas": {
+      "p1": [
+        "Steve",
+        "engineer",
+        "\"As an avid hiker, I want to replace some items in my collection with higher quality and sustainable products, so that my hikes are more enjoyable.\""
+      ],
+      "p2": [
+        "Tasha",
+        "college graduate",
+        "\"As a person about to hike seriously for the first time, I want to buy reliable products that I can trust, so I can stay safe.\""
+      ]
+    },
+    "exploration": {
+      "text": "Before moving onto the design phase, I used all information gathered from the Discovery phase to create three goals (expected results) of the project moving forward.",
+      "goals": [
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself",
+        "create a design system for the website owner, that would ensure consistency and scalability for years to come",
+        "use basic design principles to improve user experience for the many types of customers across product pages"
+      ]
+    },
+    "solSections": [
+      {
+        "title": "Brand Guideline",
+        "text": "Establishing strong brand identity and recognition",
+        "content": [
+          {
+            "subtitle": "Defining the brand",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "Screenshot of the resulting brand guideline. This was discussed heavily and iterated upon to ensure a satisfying result for the client."
+          },
+          {
+            "subtitle": "Updating the Logo",
+            "text": "The logo served as the backbone for the rest of the visual elements on the webpage. First I took the logo and redesigned it to a form that would work for both print and web. The colors from the logo helped me create a color palette that would guide the design of the webpages.",
+            "path": "sol2.png"
+          }
+        ]
+      },
+      {
+        "title": "Design System",
+        "text": "Ensure consistency and efficiency in design process",
+        "content": [
+          {
+            "subtitle": "Color + Typography + Grid",
+            "text": "I began creating the design system by following the general Atomic Design System process. I utilized Figma’s Design Library in many ways, the first being for creating and organizing the variety of color palettes, typography, and grid styles.",
+            "path": "sol3.png",
+            "caption": "Something about clickables"
+          },
+          {
+            "subtitle": "Atoms to Molecules",
+            "text": "From there, I moved onto creating Clickable elements.",
+            "path": "sol4.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "Organisms",
+            "text": "I created a preliminary map of the Information Architecture by organizing the potential functionalities of each page I planned to design, which helped me identify the required sections. Then I was able to create prototypes.",
+            "path": "sol5.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "Utilizing Figma",
+            "text": "Once I started creating the sections each page needed, I used Figma’s Variant features to create the screen responsive versions of those sections.",
+            "path": "sol6.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "Static v. Variant",
+            "text": "After I had completed all the sections, I went back and determined which sections could use more visual customization.",
+            "path": "sol7.png",
+            "caption": "In this section, the background color can be changed based on the collection that is being highlighted."
+          }
+
+        ]
+      }
+    ],
+    "mockups": [
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      },
+      {
+        "title": "Product Listing Page",
+        "path": "m2.png"
+      },
+      {
+        "title": "Product Page",
+        "path": "m3.png"
+      },
+      {
+        "title": "Responsive Versions",
+        "path": "m4.png"
+      }
+    ],
+    "learned": {
+      "ch": "Communicating with stakeholders about changing their existing designs was a challenge. ",
+      "sol": "I resolved this by allowing the stakeholders to make design decisions and keeping them informed during every step of the process.",
+      "res": "I was able to deliver a completely revitalized brand direction for BlakeProGear, through a completed brand guideline and organized design system. The stakeholders were extremely satisfied with the results provided, and felt really confident about their trajectory moving forward. ",
+      "next": "Web development has been put on pause due to supply chain issues within the company. Metrics will be updated once available."
+    }
+  },
+  "erp": {
+    "slug": "erp",
+    "name": "ERP",
+    "title": "Defining brand and website design for an outdoor gear company",
+    "imagePrefix": "/public/images/bpg/",
+    "imgs": [
+      "title-card.png"
+    ],
+    "background": {
+      "duration": "2 months",
+      "role": "Strategy, User Research, Brand Design, Web Design",
+      "text": "BlakeProGear, a company specializing in outdoor gear equipment made with superior material, needed to bring their brand into a new era, so they hired me to overhaul their design practices. Through the process of assessing their needs, I determined that they would need a brand guideline and design system that would allow them to update content while still staying within a common design language. I was able to create a brand guideline and responsive design system for them, that allowed a cohesive brand experience for their customers and efficient website content creation in the future."
+    },
+    "discovery": {
+      "d1": "I began the project by conducting meetings with the client to determine the project scope and timeline.",
+      "d2": "The direction of the brand was not defined at all, so I directed some exercises to determine that mission of the company, the desired brand personality, and how the stakeholders wanted that to be communicated.",
+      "r1": "In order to better understand the potential needs of the new website, I conducted a Competitive analysis of typical outdoor gear company websites.",
+      "r2": "The analysis of the competitor websites showed that the basic standard in the field seemed to be a focus on showcasing products with high-quality photos and detailed descriptions, as well as providing information on the company's values and commitment to sustainability. Additionally, many prioritize user reviews and ratings, as well as offering a seamless shopping experience with easy navigation and checkout processes.",
+      "persona": "I asked BPG to provide any customer insights they had noticed through their experiences providing customer service, and they determined that their customers differentiated themselves into two groups: skilled people and unskilled people. I used this to create two User Personas with unique goals, which would help anchor my design process moving forward."
+    },
+    "personas": {
+      "p1": [
+        "Steve",
+        "engineer",
+        "\"As an avid hiker, I want to replace some items in my collection with higher quality and sustainable products, so that my hikes are more enjoyable.\""
+      ],
+      "p2": [
+        "Tasha",
+        "college graduate",
+        "\"As an avid hiker, I want to replace some items in my collection with higher quality and sustainable products, so that my hikes are more enjoyable.\""
+      ]
+    },
+    "exploration": {
+      "text": "Before moving onto the design phase, I used all information gathered from the Discovery phase to create three goals (expected results) of the project moving forward.",
+      "goals": [
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself",
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself",
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself"
+      ]
+    },
+    "solSections": [
+      {
+        "title": "Brand Guideline",
+        "text": "Establishing strong brand identity and recognition",
+        "content": [
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          }
+        ]
+      },
+      {
+        "title": "Brand Guideline",
+        "text": "Establishing strong brand identity and recognition",
+        "content": [
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          }
+        ]
+      }
+    ],
+    "mockups": [
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      },
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      },
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      }
+    ],
+    "learned": {
+      "ch": "Communicating with stakeholders about changing their existing designs was a challenge. ",
+      "sol": "I resolved this by allowing the stakeholders to make design decisions and keeping them informed during every step of the process.",
+      "res": "I was able to deliver a completely revitalized brand direction for BlakeProGear, through a completed brand guideline and organized design system. The stakeholders were extremely satisfied with the results provided, and felt really confident about their trajectory moving forward. ",
+      "next": "Web development has been put on pause due to supply chain issues within the company. Metrics will be updated once available."
+    }
+  },
+  "lyra": {
+    "slug": "lyra",
+    "name": "Lyra Lights web design",
+    "title": "Defining brand and website design for an outdoor gear company",
+    "imagePrefix": "/public/images/bpg/",
+    "imgs": [
+      "title-card.png"
+    ],
+    "background": {
+      "duration": "2 months",
+      "role": "Strategy, User Research, Brand Design, Web Design",
+      "text": "BlakeProGear, a company specializing in outdoor gear equipment made with superior material, needed to bring their brand into a new era, so they hired me to overhaul their design practices. Through the process of assessing their needs, I determined that they would need a brand guideline and design system that would allow them to update content while still staying within a common design language. I was able to create a brand guideline and responsive design system for them, that allowed a cohesive brand experience for their customers and efficient website content creation in the future."
+    },
+    "discovery": {
+      "d1": "I began the project by conducting meetings with the client to determine the project scope and timeline.",
+      "d2": "The direction of the brand was not defined at all, so I directed some exercises to determine that mission of the company, the desired brand personality, and how the stakeholders wanted that to be communicated.",
+      "research-methods": "In order to better understand the potential needs of the new website, I conducted a Competitive analysis of typical outdoor gear company websites.",
+      "research-insights": "The analysis of the competitor websites showed that the basic standard in the field seemed to be a focus on showcasing products with high-quality photos and detailed descriptions, as well as providing information on the company's values and commitment to sustainability. Additionally, many prioritize user reviews and ratings, as well as offering a seamless shopping experience with easy navigation and checkout processes.",
+      "persona-creation": "I asked BPG to provide any customer insights they had noticed through their experiences providing customer service, and they determined that their customers differentiated themselves into two groups: skilled people and unskilled people. I used this to create two User Personas with unique goals, which would help anchor my design process moving forward."
+    },
+    "personas": {
+      "p1": [
+        "Steve",
+        "engineer",
+        "\"As an avid hiker, I want to replace some items in my collection with higher quality and sustainable products, so that my hikes are more enjoyable.\""
+      ],
+      "p2": [
+        "Tasha",
+        "college graduate",
+        "\"As an avid hiker, I want to replace some items in my collection with higher quality and sustainable products, so that my hikes are more enjoyable.\""
+      ]
+    },
+    "exploration": {
+      "text": "Before moving onto the design phase, I used all information gathered from the Discovery phase to create three goals (expected results) of the project moving forward.",
+      "goals": [
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself",
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself",
+        "develop a cohesive brand experience that allows the brand to communicate its core values and differentiate itself"
+      ],
+      "research-insights": "The analysis of the competitor websites showed that the basic standard in the field seemed to be a focus on showcasing products with high-quality photos and detailed descriptions, as well as providing information on the company's values and commitment to sustainability. Additionally, many prioritize user reviews and ratings, as well as offering a seamless shopping experience with easy navigation and checkout processes."
+    },
+    "sol-sections": [
+      {
+        "title": "Brand Guideline",
+        "text": "Establishing strong brand identity and recognition",
+        "content": [
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          }
+        ]
+      },
+      {
+        "title": "Brand Guideline",
+        "text": "Establishing strong brand identity and recognition",
+        "content": [
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          },
+          {
+            "subtitle": "WHAT IS THE BRAND?",
+            "text": "With validation from user research and persona creation, I met with the stakeholders to conduct a brand audit where we determined specificities of the brand personality and visual identity. I compiled all of these into a brand guideline presentation that could be shared with the stakeholders.",
+            "path": "sol1.png",
+            "caption": "captionnnnnn"
+          }
+        ]
+      }
+    ],
+    "mockups": [
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      },
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      },
+      {
+        "title": "Home Page",
+        "path": "m1.png"
+      }
+    ],
+    "learned": {
+      "challenges": "Communicating with stakeholders about changing their existing designs was a challenge. ",
+      "solutions": "I resolved this by allowing the stakeholders to make design decisions and keeping them informed during every step of the process.",
+      "results": "I was able to deliver a completely revitalized brand direction for BlakeProGear, through a completed brand guideline and organized design system. The stakeholders were extremely satisfied with the results provided, and felt really confident about their trajectory moving forward. ",
+      "next": "Web development has been put on pause due to supply chain issues within the company. Metrics will be updated once available."
+    }
+  }
+}

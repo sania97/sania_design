@@ -1,0 +1,273 @@
+// color variables
+$blue-10: #C8E1FF;
+$blue-40: rgb(90, 144, 210);
+$blue-50: rgb(60, 111, 174);
+$blue-60: rgb(25, 75, 135);
+$blue-70:#120a4c;
+
+$blue-80: #0d082e;
+$blue-90: #0a0718;
+
+$blue-100: #0a0718;
+
+$frost: rgba($blue-10, 0.2);
+$color_2: rgb(90, 144, 210);
+$pink-50: rgb(208, 95, 221);
+$green-50: rgb(75, 199, 191);
+
+$neutral-0: rgb(255, 255, 255);
+$neutral-10:rgb(233, 235, 243);
+$neutral-20: #d1ddeb;
+$neutral-30: #ADB7C3;
+$neutral-50: #616A75;
+$neutral-80: #464652;
+$neutral-100: #0a0718;
+
+$transparent: rgba($neutral-0, 0.0);
+$card-shadow: 0px 8px 48px $neutral-20, 0px 4px 8px $neutral-20;
+$card-shadow-inner: 0px -4px 24px $neutral-20;
+
+$text-shadow-blue: 0 0 0.5rem rgba($blue-40, 0.68), 0 0 1rem rgba($blue-40, 0.48), 0 0 3rem rgba($blue-40, 0.28);
+$text-shadow-blue-less: 0 0 0.5rem rgba($blue-40, 0.68);
+
+$text-shadow-pink: 0 0 0.5rem rgba($pink-50, 0.68), 0 0 1rem rgba($pink-50, 0.4), 0 0 3rem rgba($pink-50, 0.2);
+$text-shadow-green: 0 0 0.5rem rgba($green-50, 0.68), 0 0 1rem rgba($green-50, 0.4), 0 0 3rem rgba($green-50, 0.2);
+
+
+
+$border-shadow-pink: 0 0 1.5rem -0.1rem $pink-50, 0 0 1.2rem -0.1rem $pink-50 inset;
+$border-shadow-green: 0 0 1.5rem -0.1rem $green-50, 0 0 1.2rem -0.1rem $green-50 inset;
+
+$border-shadow-blue:0 0 4rem 1rem rgba($blue-40, 0.5);
+
+$border-shadow-2col:0 0 4rem 0rem $blue-10;
+$border-2col:$pink-50 $green-50 $green-50 $pink-50;
+/* -------------------------------- 
+Typography
+-------------------------------- */
+
+@import url("https://fonts.cdnfonts.com/css/vinila-test");
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+@import url('https://fonts.cdnfonts.com/css/atkinson-hyperlegible');
+                
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$font-family_1: 'Vinila Test', sans-serif;
+$font-family_2: 'Open Sauce One', sans-serif;
+$font-family_3: 'Atkinson Hyperlegible', sans-serif;
+
+.color-last {
+    background-color: $blue-70;
+  }
+  
+  .color-mid {
+    background-color:$blue-80;
+  }
+  .color-first {
+    background-color: $neutral-100;
+  }
+
+
+/* 
+	Material Design Typography 
+	https://material.io/design/typography/the-type-system.html#type-scale
+*/
+
+
+.titlefont {
+    font-family: $font-family_2;
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 7rem;
+    
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 6rem;
+    letter-spacing: -1.5px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.normal {
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+.block {
+    font-weight: 800;
+}
+.body {
+    font-family: $font-family_3;
+    line-height: 1.2;
+    font-size: 2.0rem;
+    margin: 0rem 0rem;
+    font-weight: normal;
+}
+
+.large {
+    font-size: 2.2rem;
+}
+
+.medium {
+    font-size: 1.8rem;
+}
+
+.small {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: .4rem 0rem;
+
+}
+
+
+
+.upper {
+    text-transform: uppercase;    
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+input[type="search"] {
+    font-family: $font-family_2 !important;
+    padding:.2rem;
+  }
+
+.special {
+    color:$blue-50;
+}
+.whitetxt {
+    color:$blue-10;
+}
+.graytxt {
+    color:$neutral-50;
+}
+
+
+@mixin aligned-font-icon($font-lib: null, $alignment: left, $align-margin: 10px) {
+    @if alignment == left {
+      &:before {
+        margin-right: $align-margin;
+        @include font-icon($font-lib);
+      }
+    } @else if alignment == right {
+      &:after {
+        margin-left: $align-margin;
+        @include font-icon($font-lib);
+      }
+    } @else {
+      &:before {
+        margin-right: $align-margin;
+        @include font-icon($font-lib);
+      }
+    }
+  }
+@mixin font-icon($font-lib: null) {
+    display: inline-block;
+    font-family: quote($font-lib);
+    speak: none;
+    text-decoration: inherit;
+}
+
+
+// logo anim
+@keyframes type {
+    from {
+        width: 0;
+        -webkit-text-fill-color: $neutral-0;
+    }
+  }
+  .anim {
+    cursor: pointer;
+    display: flex;
+    font-size: 3rem;
+    width:20rem;
+  
+    .anim-btn {
+        height: 1.2em;
+    }
+  
+    .anim-text {
+        height: 1.2em;
+        width: 0;
+        overflow: hidden;
+    }
+  
+    &:hover {
+       > * {
+        text-shadow: $text-shadow-blue;
+  
+      }
+      .anim-text {
+          width: 100%;
+          animation: type 1s linear forwards;
+  
+      }
+  
+  
+  
+    }
+  }
+.intromessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;  
+    gap:4rem;
+    .double-layered-text {
+        font: 500 6rem $font-family_2;
+        position: relative;
+        display: inline-block; /* Make sure both elements stay on the same line */
+        letter-spacing: 0.2rem;
+        -webkit-text-stroke-width: 0.3rem;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-text-stroke-color: $blue-40;
+        -webkit-text-fill-color: $blue-40;
+        text-shadow:$text-shadow-blue-less;
+        width: calc(100% + .4rem);
+    
+    
+    
+        /* Add the top layer using ::before pseudo-element */
+        &::before {
+          content: attr(data-text); /* Use the content from the data-text attribute */
+          position: absolute;
+          left: -.4rem;
+          top: -.4rem;
+          width: 100%;
+    
+          z-index: 1; /* Place the top layer above the bottom layer */
+          -webkit-text-stroke-color: $neutral-0;
+          -webkit-text-fill-color: $frost;
+          text-shadow:$text-shadow-blue;
+        }
+        .emoji {
+            padding: 0rem 1rem;
+        }
+    }    
+}

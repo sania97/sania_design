@@ -1,0 +1,658 @@
+@import '_colors';
+
+//basic button - grey bg
+.btn {
+    padding: 1.4rem 1.8rem;
+    display: inline-block;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 250ms ease-in-out;
+    letter-spacing: 0.5px;
+    //white-space: nowrap;
+    overflow: hidden;
+    font-family: $font-family_1;
+    cursor: pointer;
+
+    &.primary {
+        background: $blue-80;
+        color: $neutral-0;
+        border: .4rem solid $transparent;
+
+        &:hover {
+            background: $blue-60;
+            color: $neutral-0;
+            border: .4rem solid $transparent;
+        }
+    }
+
+    &.secondary {
+        color: $blue-80;
+        background: $transparent;
+        border: .4rem solid $blue-60;
+
+        &:hover {
+            border: .4rem solid $blue-50;
+            color: $blue-50;
+            background: $blue-10;
+
+
+        }
+    }
+
+    &.tertiary {
+        color: $blue-40;
+        border-radius: 1.2rem;
+
+        background: $neutral-10;
+        border: 0rem solid $neutral-0;
+        padding: 1.4rem;
+
+        &:hover {
+
+            color: $blue-80;
+
+        }
+    }
+
+    
+    &.topage {
+        padding: 1rem 0.4rem;
+        border: none;
+        text-align: left;
+        position: relative;
+        text-decoration: none;
+        color: $blue-80;
+        font-size: 2.0rem;
+        display: flex;
+        background: transparent;
+        font-weight: 500;
+
+        &:hover {
+            text-shadow: $text-shadow-blue;
+        }
+    }
+
+
+
+    &.link {
+        color: $neutral-50;
+        border: none;
+        font-weight: 400;
+        white-space: normal;
+        padding: 1rem 0rem;
+
+        &:hover {
+            color: $blue-60;
+            text-shadow:$text-shadow-blue-less;
+        }
+        &.current {
+            color: $blue-60;
+            text-shadow:0px 0px 1px black;
+            &:hover {
+                color: $blue-60;
+                text-shadow:$text-shadow-blue-less;
+            }    
+        }
+
+
+        &.giant {
+            font-size: 3.2rem;
+        }
+
+        &.cardd {
+            font-size: 2.4rem;
+        }
+
+        &.footer {
+            font-size: 1.4rem;
+            white-space: normal;
+        }
+
+        &.dark-bg {
+            font-weight: 400;
+            color: $blue-10;
+
+            &:hover {
+                border: none;
+                color: $blue-40;
+
+            }
+
+            &.current {
+                font-weight: 700;
+            }
+        }
+
+        &.inline {
+            font-weight: 500;
+            color: $blue-60;
+
+            &.notlink {
+                border: none;
+                cursor: auto
+            }
+
+            &.underline {
+                font-weight: 600;
+
+                cursor: pointer;
+                text-decoration: underline;
+
+                &:hover {
+                    color: $blue-40;
+                    text-decoration: none;
+
+
+                }
+            }
+        }
+    }
+
+    &.graphic {
+        padding: 0rem 0rem;
+        color: $blue-60;
+        border: none;
+        font-weight: 400;
+
+        &:hover {
+            border: none;
+        }
+    }
+
+    &.wicon {
+
+        text-decoration: inherit;
+
+        // can be any color
+        &:before,
+        &:after {
+            padding: 0rem;
+            display: inline-block;
+            font-weight: 400;
+            /* Make sure to use the regular weight */
+
+        }
+
+        &.right {
+
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                margin-left: 1rem;
+            }
+        }
+
+        &.left {
+            &:after {
+                display: none;
+            }
+
+            &:before {
+                margin-right: 1rem;
+            }
+        }
+
+        &.alone {
+            padding: 1.4rem 1.4rem;
+            text-align: center;
+
+            &:before {
+                font-size: 2.0rem;
+
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+
+        
+
+        &.heading {
+            text-align: center;
+            padding: .5rem 3rem;
+            border-radius: 2rem;
+            background-color: $blue-10;
+            width: 8rem;
+            height: 8rem;
+            position: relative;
+            opacity: 0.8;
+            cursor: auto;
+
+            &:before {
+                font-size: 5.0rem;
+                position: absolute;
+                top: 50%;
+                /* Vertically align at 50% */
+                left: 50%;
+                /* Horizontally align at 50% */
+                transform: translate(-50%, -50%);
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+
+        //icon types
+        &.light:before,
+        &.light:after {
+            font-family: quote("FontAwesome");
+            content: "\f0eb";
+        }
+
+        &.sun:before,
+        &.sun:after {
+            font-family: quote("FontAwesome");
+            content: "\f185";
+        }
+
+        &.engine:before,
+        &.engine:after {
+            font-family: quote("FontAwesome");
+            content: "\f1e6";
+        }
+
+        &.doc:before,
+        &.doc:after {
+            font-family: quote("FontAwesome");
+            content: "\f15c";
+        }
+
+        &.search:before,
+        &.search:after {
+            font-family: quote("FontAwesome");
+            content: "\f002";
+        }
+
+        &.menu:before,
+        &.menu:after {
+            font-family: quote("FontAwesome");
+            content: "\f0c9";
+        }
+
+        &.home:before,
+        &.home:after {
+            font-family: quote("FontAwesome");
+            content: "\f015";
+        }
+
+        &.phone:before,
+        &.phone:after {
+            font-family: quote("FontAwesome");
+            content: "\f095";
+        }
+
+        &.email:before,
+        &.email:after {
+            font-family: quote("FontAwesome");
+            content: "\f0e0";
+            font-weight: normal;
+            /* Make sure to use the regular weight */
+
+        }
+
+        &.sales:before,
+        &.sales:after {
+            font-family: quote("FontAwesome");
+            content: "\f0d1";
+        }
+
+        &.go:before,
+        &.go:after {
+            font-family: quote("FontAwesome");
+            content: "\f061";
+
+        }
+
+        &.caret:before,
+        &.caret:after {
+            font-family: quote("FontAwesome");
+            content: "\f0d7";
+        }
+
+        &.scrolldown:before,
+        &.scrolldown:after {
+            font-family: quote("FontAwesome");
+            content: "\f103";
+        }
+
+        &.anim:hover {
+            &:after {
+                transform: translate(1rem, 0);
+            }
+        }
+
+    }
+    &.tab {
+        padding: 1rem 0rem;
+        border: none;
+        text-align: left;
+        position: relative;
+        text-decoration: none;
+        color: $neutral-0;
+        font-size: 2.0rem;
+        display: flex;
+        background: transparent;
+        font-weight: 700;
+        letter-spacing: 2px;
+        &.dark {
+            color:$blue-80;
+        }
+        
+    }
+    &.chip {
+        padding: 0.8rem 1rem;
+        border-radius: 1rem;
+        color: $blue-80;
+        background-color: $blue-10;
+        text-align: center;
+    }
+    &.title {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding:0rem;
+        font-size:2.4rem;
+        align-items: center;
+        font-family: $font-family_2;
+        cursor:default;
+        &:after {
+            font-size: 3.0rem;
+            width: 4rem;
+            text-align: center;
+            color:$neutral-30;
+        }
+    }
+    &.giant {
+        font-family: $font-family_1;
+        border: 0.6rem solid $neutral-0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+        gap: 3rem;
+        color: $neutral-0;
+        width: 100%;
+        margin-bottom: 1rem;
+
+            padding: 3rem;
+            text-align: left;
+            justify-content: flex-start;
+            &:before {
+                font-size: 3.6rem;
+                width: 4rem;
+                text-align: center;
+            }
+
+            &:after {
+                display: none;
+            }
+        
+        &.pink {
+            &:hover {
+                animation: border-flicker 0.5s linear forwards;
+            }
+
+            &:before {
+                font-size: 4.0rem;
+
+            }
+        }
+
+        &.green {
+            &:hover {
+                animation: border-flicker-g 0.5s linear forwards;
+            }
+
+            &:before {
+                font-size: 4.0rem;
+
+            }
+        }
+    }
+
+    @keyframes border-flicker {
+        34% {
+            border: 0.6rem solid $pink-50;
+            box-shadow: $border-shadow-pink;
+
+            text-shadow: $text-shadow-pink;
+
+        }
+
+        100% {
+            border: 0.6rem solid $pink-50;
+            box-shadow: $border-shadow-pink;
+
+            text-shadow: $text-shadow-pink;
+
+        }
+    }
+
+    @keyframes border-flicker-g {
+        34% {
+            border: 0.6rem solid $green-50;
+            box-shadow: $border-shadow-green;
+
+            text-shadow: $text-shadow-green;
+
+        }
+
+        100% {
+            border: 0.6rem solid $green-50;
+            box-shadow: $border-shadow-green;
+            text-shadow: $text-shadow-green;
+
+        }
+    }
+
+}
+
+
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    transition: width 0.3s ease;
+    width: 100%;
+    max-width: fit-content;
+    justify-content: flex-end;
+    background-color: $neutral-0;
+    border-radius: 1.2rem;
+
+    &.focused {
+        background-color: $neutral-20;
+
+    }
+
+
+    form {
+        padding: 1.4rem 1rem;
+        position: relative;
+        z-index: 1;
+        transition: width 0.3s ease;
+        border-radius: 1.2rem 0rem 0rem 1.2rem;
+
+    }
+
+
+
+    #toggleSearch {
+        background-color: $neutral-10;
+        cursor: pointer;
+        z-index: 2;
+        border: none;
+        right: 0;
+        height: 100%;
+        border-radius: 1.2rem;
+
+
+    }
+
+    #toggleSearchIcon {
+        &.submit {
+            color: $blue-80;
+        }
+    }
+
+
+
+
+
+}
+
+
+.buttontocasestudy {
+    position: relative;
+    z-index: 6;
+    padding: 0em 1.1em;
+    border-radius: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    &:before {
+        color: $neutral-80;
+        transition: all .2s ease-in-out;
+        content: '[';
+        display: block;
+        font-size: 2em;
+        left: 0;
+        opacity: 1;
+        position: absolute;
+        top: .4em;
+        font-weight: 500;
+
+    }
+
+    &:after {
+        color: $neutral-80;
+        transition: all .2s ease-in-out;
+        content: ']';
+        display: block;
+        font-size: 2em;
+        right: 0;
+        opacity: 1;
+        position: absolute;
+        top: .4em;
+        font-weight: 500;
+
+    }
+    &:hover {
+        color: $blue-60;
+        background: 0 0;
+        text-shadow: $text-shadow-blue;
+
+        &:after {
+            opacity: 1;
+            right: -.1em;
+            color: $blue-60;
+        }
+
+        &:before {
+            opacity: 1;
+            left: -.1em;
+            color: $blue-60;
+        }
+    }
+}
+
+
+//displaying
+.button-row {
+    display: flex;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    gap: 1rem;
+    padding: .4rem;
+    justify-content: center;
+
+    &.header {
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        z-index: 99;
+        align-items: center;
+
+        a:last-child {
+            z-index: 100;
+        }
+    }
+
+    @media(max-width:$sm) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &.header {
+            flex-direction: row;
+
+        }
+    }
+}
+
+.titlewbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    @media(max-width:$sm) {
+        flex-direction: column;
+    }
+}
+
+.linkblock {
+    display: flex;
+    gap: .4rem;
+    margin: 1rem;
+    justify-content: center;
+
+    @media(max-width:$sm) {
+        flex-direction: column;
+    }
+
+}
+
+.cardlink {
+    transition: transform 0.3s;
+    color: $neutral-100;
+
+    &:hover {
+        color: $blue-80;
+    }
+
+    &:hover .product-images img.prod-img {
+        transform: scale(1.05);
+        /* Adjust scaling factor as needed */
+    }
+}
+
+.breadcrumb {
+    display: flex;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: flex-start;
+    color: $neutral-0;
+    padding-bottom: 10rem;
+
+    @media(max-width:$sm) {
+        gap: .4rem;
+
+        :nth-child(-n+2) {
+            display: none;
+        }
+    }
+}
+
